@@ -2,44 +2,6 @@
     margin: 0;
     padding: 0;
 }
-/* .header {
-    position: relative;
-}
-
-.header h1{
-    color: red;
-    font-family: 'Libre Baskerville', serif;
-    padding: 10px;
-}
-
-.header p {
-    color: white;
-    font-family: 'Libre Baskerville', serif;
-    line-height: 35px;
-    font-size: 1rem;
-    padding: 10px;
-}
-
-.content {
-    position: absolute;
-    margin: 0 auto;
-    /* center
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    top: 10%;
-    left: 10%;
-    width: 700px;
-    padding: 20px;
-    background: rgba(119, 121, 113, 0.5);  
-}
-
-.background {
-    background-image: url("/img/the-handamid-tale.png");
-    background-size: cover;
-    height: 100vh;
-} */
 body {
     height: 95vh;
     overflow: hidden;
@@ -79,22 +41,3 @@ body {
     transform: scale(1.5);
 }
 
-.img-container {
-    position:relative;
-    float: left;
-    margin: 0;
-    padding: 0;
-}
-
-.img-button {
-    background-color: Transparent;
-    border:none;
-    display: block;
-    float: none;
-    margin-right: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-}
