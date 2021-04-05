@@ -1,5 +1,4 @@
-var imgElements = document.querySelectorAll(".img_carousel");
-var textToUpdate = document.querySelector("#text-update");
+var imgElements = document.querySelectorAll(".img_slider");
 
 function updateBackground(elem){
     let colour;
