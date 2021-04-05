@@ -53,3 +53,14 @@ body, html {
 .img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover, .img7:hover, .img8:hover{
     transform: scale(1.5);
 }
+
+@media screen and (max-width: 950px){    
+    .prev, .next {
+        width: 2rem;
+        height: 3rem;
+    }
+
+    .img4, .img5, .img6, .img7, .img8 {
+        display: none;
+    }
+}
