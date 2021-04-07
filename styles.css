@@ -15,27 +15,33 @@ body, html {
 }
 
 .content{
-    height: 80%;
+    height: 70%;
 }
 
 .slider {
-    height: 20%;
-    width: 70%;
-    margin-bottom: 25px;
+    height: 30%;
+    width: 700px;
+    margin-bottom: 40px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .slider_images {
+    width: 500px;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: auto;
     flex-grow: 2;
 }
 
 .img_slider {
+    position: relative;
     height: 150px;
     width: 100px;
+    margin: 0 5px;
 }
 
 .prev, .next {
@@ -50,17 +56,14 @@ body, html {
     opacity: 0.6;
   }
 
-.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover, .img7:hover, .img8:hover{
-    transform: scale(1.5);
-}
+/* .img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover, .img7:hover, .img8:hover{
+    transform: scale(1.2);
+} */
+
 
 @media screen and (max-width: 950px){    
     .prev, .next {
         width: 2rem;
         height: 3rem;
-    }
-
-    .img4, .img5, .img6, .img7, .img8 {
-        display: none;
     }
 }
